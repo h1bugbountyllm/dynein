@@ -1,0 +1,4 @@
+[toolchain]
+channel = "stable"  # Or any specific Rust version like "nightly" or "1.60.0"
+components = ["rustfmt", "clippy"]  # Optional components like rustfmt or clippy
+profile = "minimal"  # Optional, can be "minimal", "default", or "complete"

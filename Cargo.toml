@@ -30,7 +30,6 @@ name = "dy"
 path = "src/main.rs"
 
 [dependencies]
-request = "0.0.7"
 aws-config       = "1.4.0"
 aws-sdk-dynamodb = "1.28.0"
 aws-sdk-ec2      = "1.42.0"

